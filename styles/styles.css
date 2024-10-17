@@ -1,0 +1,110 @@
+/* universal stuffs */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.font{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    
+}
+
+.btn-1{
+    width: 290px;
+    height: 72px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 30px;
+    flex: none;
+    flex-grow: 0;
+    margin: 28px 600px 30px 600px;
+    border-radius: 10px;
+    background-color: rgb(13, 19, 33);
+
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+/* box-1 */
+
+.header-items{
+   /* width: 1500px;
+   height: 700px;
+   left: 0;
+   right: 0;
+   bottom: 4500; */
+
+   margin: 130px 650px 4507px;
+   padding: 80px 300px 0 800px;
+    justify-content: center;
+    align-items: center;
+
+     /* margin: 0;
+   padding: 0; */
+  
+    
+}
+
+#bg{
+    background-image: url(../images/Hero-bg.png);
+    position: absolute;
+    width: 1550px;
+    height: 750px;
+    margin: 150px 0 4500px;
+}
+
+.image-1{
+    width: 300px;
+    height: 270px;
+    margin: 0px 600px;
+    transform: rotate(360deg);
+    /* margin-top: 40px;
+    margin-right: 400px;
+    margin-left: 400px;
+    margin-bottom: 20px; */
+
+}
+
+/*.title-items{
+    margin: 300px 200px 220px;
+} */
+.title{
+    font-size: 55px;
+    font-weight: 800px;
+    font-weight: bolder;
+    line-height: 75px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 0px 100px 0px;
+    /* margin: 0 100px; */
+}
+
+.subtitle{
+    font-size: 25px;
+    font-weight: 200;
+    text-align: center;
+    line-height: 35px;
+    letter-spacing: 0%;
+    margin: 20px 100px 30px;
+}
+
+
+
+/* .header-items{
+    justify-content: center;
+    align-items: center; */
+
+
+/*  margin: 26px 600px 390px 600px;
+    justify-content: center;
+    align-items: center */
