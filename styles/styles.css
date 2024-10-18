@@ -189,7 +189,7 @@ height: 1320px;
 
 left: 148px;
 right: 152px;
-top: 590px;
+top: 950px;
 bottom: 2995px;
 
 display: flex;
@@ -402,12 +402,127 @@ letter-spacing: 0%;
 text-align: left;
 }
 
+.purpose{
+ 
+position: static;
+width: 946px;
+height: 336px;
 
-/* .header-items{
-    justify-content: center;
-    align-items: center; */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 32;
+padding: 48px;
 
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 32px 0px 32px 60px;
+}
 
-/*  margin: 26px 600px 390px 600px;
-    justify-content: center;
-    align-items: center */
+.purpose-items{
+    width: 1500px;
+    margin-left: 100px;
+}
+
+.img-3{
+
+/* position: absolute;
+width: 223.2px;
+height: 208.85px;
+margin-left: 50px;
+padding-right: 100px; */
+
+/* left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%; */
+}
+
+.purpose-title {
+
+position: static;
+width: 477px;
+height: 72px;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 16;
+padding: 0px 0px 30px 0px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 16px 0px 16px 80px;
+
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.purpose-subtitle{
+ 
+position: static;
+width: 468px;
+height: 52px;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 16;
+padding: 20px 0 50px 0;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 20px 0px 16px 80px;
+
+opacity: 0.7;
+
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.btn-3{
+
+position: static;
+width: 190px;
+height: 60px;
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10;
+padding: 12px 20px 12px 20px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 32px 80px;
+
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+text-decoration: none;
+
+box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+
+}
+
