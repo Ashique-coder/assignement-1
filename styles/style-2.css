@@ -1,0 +1,28 @@
+#bg{
+    /* Hero-bg */
+    background-image: url(../images/Hero-bg.png);
+position: absolute;
+width: 1440px;
+height: 652px;
+left: 0;
+right: 0;
+top: 131px;
+bottom: 4462px;
+}
+
+.header-item{
+    position: absolute;
+width: 998px;
+height: 581px;
+left: 221px;
+right: 221px;
+top: 157px;
+bottom: 4507px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 32;
+padding: 0px;
+}
